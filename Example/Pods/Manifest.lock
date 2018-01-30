@@ -1,0 +1,16 @@
+PODS:
+  - TNExtension (0.1.0)
+
+DEPENDENCIES:
+  - TNExtension (from `../`)
+
+EXTERNAL SOURCES:
+  TNExtension:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TNExtension: c67c40f29dd0ab3d60f84809dfd5aa4e2d75bc90
+
+PODFILE CHECKSUM: 27f08406f8a32a8a0000c6ad40a83a60628f7618
+
+COCOAPODS: 1.4.0
