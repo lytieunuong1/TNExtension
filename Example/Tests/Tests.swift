@@ -16,6 +16,11 @@ class Tests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
+        let string = "Hello"
+//        let md5Data = string
+//
+//        let md5Hex =  md5Data.map { String(format: "%02hhx", $0) }.joined()
+//        print("md5Hex: \(md5Hex)")
         XCTAssert(true, "Pass")
     }
     

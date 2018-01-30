@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TNExtension'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TNExtension.'
+  s.summary          = 'This is a collection of useful extensions for Swift.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This is a collection of useful extensions for Swift. It includes extensions of String, Date, UIViewController,...
                        DESC
 
-  s.homepage         = 'https://github.com/Thuỳ Nguyễn/TNExtension'
+  s.homepage         = 'https://github.com/lytieunuong1/TNExtension.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Thuỳ Nguyễn' => 'ntxuanthuy17@gmail.com' }
-  s.source           = { :git => 'https://github.com/Thuỳ Nguyễn/TNExtension.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lytieunuong1/TNExtension.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'TNExtension/Classes/**/*'
   
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
+  #s.dependency 'CommonCrypto'
 end

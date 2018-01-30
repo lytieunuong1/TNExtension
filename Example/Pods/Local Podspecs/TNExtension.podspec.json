@@ -1,9 +1,9 @@
 {
   "name": "TNExtension",
   "version": "0.1.0",
-  "summary": "A short description of TNExtension.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Thuỳ Nguyễn/TNExtension",
+  "summary": "This is a collection of useful extensions for Swift.",
+  "description": "This is a collection of useful extensions for Swift. It includes extensions of String, Date, UIViewController,...",
+  "homepage": "https://github.com/lytieunuong1/TNExtension.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,12 @@
     "Thuỳ Nguyễn": "ntxuanthuy17@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Thuỳ Nguyễn/TNExtension.git",
+    "git": "https://github.com/lytieunuong1/TNExtension.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "TNExtension/Classes/**/*"
+  "source_files": "TNExtension/Classes/**/*",
+  "frameworks": "UIKit"
 }
